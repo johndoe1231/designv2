@@ -1,4 +1,4 @@
 Min me/redovisa
 =========================
 
-Här skriver jag något trevligt om mig och kursen.
+Writing something about the course
