@@ -15,14 +15,18 @@ views:
             meta: 
                 type: single
                 route: block/om-redovisa
+
+    mumin:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: block/om-mumin
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Kursen _Design_ är en del av programmet Webbprogrammering 120 hp vid Blekinge Tekniska Högskola. Kursen är på 7,5 hp och annordnas på distans och på plats i Karlskrona under hösten 2018.
 
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/coaching-coders-coding.jpg?w=300 caption="En bild på två programmerare"]

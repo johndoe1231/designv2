@@ -14,3 +14,189 @@
 .rm-navbar-max {
     display: none;
 }
+
+.site-logo-text-icon {
+    display: none;
+}
+
+
+html {
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: black;
+    box-sizing: border-box;
+}
+
+.wrap-all {
+    max-width: 960px;
+    margin: 0 auto;
+    background: beige;
+}
+
+/* Header stuff */
+.my-navbar {
+    list-style-type: none;
+}
+
+.my-navbar li {
+    display: inline;
+}
+
+.site-logo {
+    padding-top: 1rem;
+}
+
+.site-logo-text {
+}
+
+.region-header-col-1 {
+    float: left;
+    display: inline;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+
+.region-header-col-2 {
+    float: right;
+    font-size: 1.3rem;
+}
+
+.region-header-col-2 li {
+    padding: 0 0.75rem;
+}
+
+
+.region-header-col-1 a,
+.region-header-col-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.region-header-col-2 a:hover {
+    border-bottom: 2px solid black;
+}
+
+.site-logo {
+    display: none;
+}
+
+.outer-wrap-main {
+    min-height: 67rem;
+}
+
+.inner-wrap-main {
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+/* Flash image stuff */
+
+.inner-wrap-flash img {
+    max-width: 100%;
+}
+
+
+/* Image stuff */
+.figure {
+    float: right;
+}
+
+/* Table of content stuff  */
+
+.wrap-sidebar {
+    width: 33%;
+    float: left;
+    display: inline;
+}
+
+.region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 61%;
+    margin: 0 3%;
+}
+
+.toc {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.toc h4 {
+    padding-left: 1rem;
+}
+.toc ul a {
+    text-decoration: none;
+}
+
+.toc ul a:hover {
+    text-decoration: underline;
+}
+
+
+.breadcrumb-list ul {
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.breadcrumb-list ul li a {
+    text-decoration: none;
+}
+
+.breadcrumb-list ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Byline stuff */
+
+.byline {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.author-byline {
+    display: block;
+    border: 1px solid black;
+    padding-bottom: 7rem;
+    margin-bottom: 2rem;
+}
+
+.figure.figure.left {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+
+.next {
+    float: right;
+}
+
+/* Footer stuff */
+
+.outer-wrap-footer {
+    background:#343435;
+    color: gray;
+    padding-bottom: 1rem;
+    /* width: 1200px; */
+    
+    /* background-image: linear-gradient(#2c3539, #586b73);
+    color: white;
+    font-size: 0.7em;
+    margin-top: 4em; */
+}
+
+
+.inner-wrap.footer {
+    margin: 0 auto;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer p {
+    text-align: center;
+}

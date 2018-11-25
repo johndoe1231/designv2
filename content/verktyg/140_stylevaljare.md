@@ -53,4 +53,4 @@ return [
             ],
 ```
 
-Pröva till exempel att ta bort kommentaren `//"css/kmom01.css"` och sätt en kommentar framför `"css/dbwebb-se.min.css"`. Ladda sedan om sidan och du bör nu ha en ny standar style för din webbplats.
+Pröva till exempel att ta bort kommentaren `//"css/kmom01.css"` och sätt en kommentar framför `"css/dbwebb-se.min.css"`. Ladda sedan om sidan och du bör nu ha en ny standard style för din webbplats.
