@@ -1,0 +1,54 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+
+ 
+ul li {
+    list-style: none;
+}
+
+.inner-wrap {
+    max-width: 1000px;
+    margin: 0.5rem auto 0 auto;
+}
+
+.inner-wrap-main {
+    overflow: auto;
+}
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    overflow: auto;
+}
+
+.region-main {
+    width: 80%;
+    margin-left: 3%;
+    margin-bottom: 2rem;
+    float: left;
+    overflow: auto;
+    margin-left: 0;
+
+    &.has-sidebar {
+        margin-left: 0;
+        width: 70%;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
